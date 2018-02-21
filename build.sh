@@ -1,3 +1,3 @@
-#!/bin/bash
+#! /bin/bash
 
-docker run -ti --rm --mount src=kali-root,dst=/root --mount src=kali-postgres,dst=/var/lib/postgresql
+docker build . -t nodebotanist/kali-iot-testing:latest
