@@ -4,8 +4,3 @@ RUN apt update
 RUN apt dist-upgrade -y
 RUN apt autoremove
 RUN apt clean
-
-
-
-
-
